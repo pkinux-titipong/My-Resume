@@ -115,7 +115,7 @@ const Skills = () => {
             <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 xl:gap-[30px]">
               {skillList.map((skillList, index)=>{
                 return(
-                  <li> 
+                  <li key={index}> 
                     <div className="text-6xl group-hover:text-accent transition-all duration-300">{skillList.icon}</div>
                   </li>
                 )

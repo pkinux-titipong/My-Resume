@@ -16,9 +16,9 @@ export default function Home() {
         {/* information */}
           <div className="text-center xl:text-left order-2 xl:order-none ">
             <span className="text-xl">IT Engineer</span>
-            <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-accent"> Titipong Chotjit</span></h1>
+            <h1 className="h1 mb-6">Hello I am <br /> <span className="text-accent"> Titipong Chotjit</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I'm IT System Engineer with 3 years of experience in Network and CCTV system, escalation Support, network admin and system admin. Quick solutions to technical problems, problems of IT solution.
+            I am IT System Engineer with 3 years of experience in Network and CCTV system, escalation Support, network admin and system admin. Quick solutions to technical problems, problems of IT solution.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" size="lg" className="uppercase fle items-center gap-2">
