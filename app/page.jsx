@@ -7,6 +7,7 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 
+
 export default function Home() {
   return (
     <section className="h-full">
@@ -21,9 +22,9 @@ export default function Home() {
             I am IT System Engineer with 3 years of experience in Network and CCTV system, escalation Support, network admin and system admin. Quick solutions to technical problems, problems of IT solution.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button src="/assets/pdf/RESUME.pdf" variant="outline" size="lg" className="uppercase fle items-center gap-2">
+              <Button  variant="outline" size="lg" className="uppercase fle items-center gap-2">
                 <span>
-                  Download Resume
+                    <a href="/assets/pdf/RESUME.pdf">Download Resume</a>
                 </span>
                 <FiDownload className="text-xl"/>
               </Button>
